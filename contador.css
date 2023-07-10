@@ -1,0 +1,245 @@
+#contador{
+    background-color:#012548;
+}
+
+.wrapper {
+    position:absolute;
+    width: 120vh;
+    transform: translate(-50%, -50%);
+    margin-top: 10%;
+    left: 50%;
+    display: flex;
+    justify-content:space-around;
+    gap: 35px;
+
+    
+
+}
+.wrapperr {
+    position:absolute;
+    width: 120vh;
+    transform: translate(-50%, -50%);
+    margin-top: 25%;
+    left: 50%;
+    display: flex;
+    justify-content:space-around;
+    gap: 35px;
+
+
+}
+
+.container {
+    width: 31vmin;
+    height:35vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3em 0;
+    position:  relative;
+    font-size: 16px;
+    border-radius: 0.8em;
+    background-color: #012548;
+
+    
+}
+.container:hover{
+    box-shadow: 0 0 15px white;
+}
+
+i{
+    color: white;
+    font-size: 2.5em;
+    text-align:center;
+}
+span.num{
+    color: white;
+    display: grid;
+    place-items: center;
+    font-weight:600;
+    font-size:2.5em;
+}
+span.text{
+    color: white;
+    font-size: 1.0em;
+    text-align:center;
+    margin-top: 
+}
+span.img{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: ;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family= IBM+Plex+Sans:ital,wght@1,700 & display=swap') ;
+span.title{
+    margin-top: 2%;
+    font-size: 3.3rem;
+    família da fonte: 'IBM Plex Sans';
+    color:#0C5194;
+    font-weight:700;
+}
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 90%;
+        max-width: 768px;
+        left: 60%;
+        top: 0%;
+        transform: translate(-60%, -50%);
+        margin-top: 155%;
+        margin-bottom: 10%;
+    }
+    .wrapperr {
+        width: 90%;
+        max-width: 768px;
+        left: 60%;
+        top: 0%;
+        transform: translate(-60%, -50%);
+        margin-top: 200%;
+        margin-bottom: 5%;
+    }
+    i{
+        color: white;
+        font-size: 1.9em;
+        text-align:center;
+}
+    span.num{
+        color: white;
+        display: grid;
+        place-items: center;
+        font-weight:600;
+        font-size:1.3em;
+}
+    span.text{
+        color: white;
+        font-size: 0.8em;
+        text-align:center;
+        margin-top: 
+}
+    span.img{
+        color: white;
+        font-size: 0.9em;
+        text-align: center;
+        margin-top: ;
+    
+}
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+        width: 50%;
+        max-width: 480px;
+        left: 0;
+        top: 0%;
+        transform: translate(45%, -50%);
+        margin-top:250%;
+        margin-bottom: 10%;
+
+    }
+    .wrapperr {
+        width: 90%;
+        max-width: 480px;
+        left: 25%;
+        top: 0%;
+        transform: translate(-25%, -50%);
+        margin-top: 325%;
+        margin-bottom: 10%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    i{
+        color: white;
+        font-size: 1.9em;
+        text-align:center;
+}
+    span.num{
+        color: white;
+        display: grid;
+        place-items: center;
+        font-weight:600;
+        font-size:0.8em;
+}
+    span.text{
+        color: white;
+        font-size: 0.8em;
+        text-align:center;
+        margin-top: 
+}
+    span.img{
+        color: white;
+        font-size: 0.9em;
+        text-align: center;
+        margin-top: ;
+    
+}
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper {
+        position:absolute;
+        width: 120vh;
+        transform: translate(-50%, -50%);
+        margin-top: 10%;
+        left: 50%;
+        display: flex;
+        justify-content:space-around;
+        gap: 5px;
+    
+        
+    
+    }
+    .wrapperr {
+        position:absolute;
+        width: 120vh;
+        transform: translate(-50%, -50%);
+        margin-top: 30%;
+        left: 50%;
+        display: flex;
+        justify-content:space-around;
+        gap: 10px;
+    
+    
+    }
+    
+
+    i{
+        color: white;
+        font-size: 2.5em;
+        text-align:center;
+    }
+    span.num{
+        color: white;
+        display: grid;
+        place-items: center;
+        font-weight:600;
+        font-size:1.9em;
+    }
+    span.text{
+        color: white;
+        font-size: 1.0em;
+        text-align:center;
+        margin-top: 
+    }
+    span.img{
+        color: white;
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: ;
+        
+    }
+    .container{
+        width: 25vmin;
+        height:35vmin;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 3em 0;
+        position:  relative;
+        font-size: 14px;
+        border-radius: 0.8em;
+        background-color: #012548;
+    }
+}
